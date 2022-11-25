@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd22a3b78a9ae94ab581cd3cdc90fa9, type: 3}
+  m_Name: PickaxesData
+  m_EditorClassIdentifier: 
+  pickaxes:
+  - cost: 0
+    power: 1
+    sprite: {fileID: 21300000, guid: 0be6651ac71bba3408356adecab3280f, type: 3}
+    prefab: {fileID: 1096567297854896378, guid: c31e0683a6f4dcf4abb3f5f65eba0e19,
+      type: 3}
+  - cost: 250
+    power: 2
+    sprite: {fileID: 21300000, guid: eb2bff1a56ff4cd49acbad303523829f, type: 3}
+    prefab: {fileID: 1096567297854896378, guid: a8f90746ca93fce4d83409ea4d9e235a,
+      type: 3}
+  - cost: 1000
+    power: 10
+    sprite: {fileID: 21300000, guid: cff2e0a835550614caf591f9e5bc65a2, type: 3}
+    prefab: {fileID: 1691218664216183155, guid: 7e1d364a6fe9eb64fadee75d4680f1f9,
+      type: 3}
+  - cost: 8000
+    power: 24
+    sprite: {fileID: 21300000, guid: 1178ccc7979893e44a4c5c27e469487c, type: 3}
+    prefab: {fileID: 7081411472146247832, guid: 1712872631084e94d9ec8b52a6f46ee4,
+      type: 3}
+  - cost: 35000
+    power: 55
+    sprite: {fileID: 21300000, guid: bc1500b3c317a64478c44722787bc35c, type: 3}
+    prefab: {fileID: 3269672475959837989, guid: 7d2eb2a225fb85a45bb30723545a3ec3,
+      type: 3}
+  - cost: 72000
+    power: 120
+    sprite: {fileID: 21300000, guid: d727806a10856c44cb1557abf86ba3ff, type: 3}
+    prefab: {fileID: 859804468533059497, guid: 23362d99ab9210346b059d4d05565057, type: 3}
+  premium:
+    costUSD: 0.99
+    power: 400
+    sprite: {fileID: 21300000, guid: 11851c3a60e13ed4a850136ed2646c48, type: 3}
+    prefab: {fileID: 2650178387835853409, guid: c14123f92f58fd64ebeed38e5646a64a,
+      type: 3}

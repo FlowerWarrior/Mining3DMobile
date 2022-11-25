@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdfe5e96d59f7f428f2863e8a46e1c0, type: 3}
+  m_Name: BackpacksData
+  m_EditorClassIdentifier: 
+  backpacksInfo:
+  - cost: 0
+    capacity: 5
+    sprite: {fileID: 21300000, guid: d8e57333f858f554f94f7921c6df20ee, type: 3}
+  - cost: 200
+    capacity: 10
+    sprite: {fileID: 21300000, guid: d4c6d1fa2f1ced9449887061c8a3e06b, type: 3}
+  - cost: 500
+    capacity: 15
+    sprite: {fileID: 21300000, guid: 4a17369199373c141bf25a8a9e4c8bb9, type: 3}
+  - cost: 1000
+    capacity: 20
+    sprite: {fileID: 21300000, guid: 4df1cd4300b627c4cab640832184c340, type: 3}
+  - cost: 2500
+    capacity: 30
+    sprite: {fileID: 21300000, guid: 204ebf697845d1c4ab0b5617385b0573, type: 3}
+  - cost: 5000
+    capacity: 40
+    sprite: {fileID: 21300000, guid: 8a5add64d8d9b55498ba00e04d6a6947, type: 3}
+  - cost: 10000
+    capacity: 60
+    sprite: {fileID: 21300000, guid: 397208abbe9a92244baa9af8ef3c2149, type: 3}
+  - cost: 25000
+    capacity: 100
+    sprite: {fileID: 21300000, guid: 2eac97caf63ca504a9d3fcc124dff4c9, type: 3}
+  infiniteBackpack:
+    costUSD: 0.99
+    capacity: "\u221E"
+    sprite: {fileID: 21300000, guid: a04e1fb922a902b4da2a5f79a2ce2520, type: 3}

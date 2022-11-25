@@ -1,0 +1,7 @@
+Product ID,Published State,Purchase Type,Auto Translate,Locale; Title; Description,Auto Fill Prices,Price,Pricing Template ID
+com.tomaszpiasecki.mininggame3d.clicker.infinite_backpack,published,managed_by_android,false,en_US;Infinite Backpack;Doesn't run out of space.,true,990000,
+com.tomaszpiasecki.mininggame3d.clicker.ultmate_pickaxe,published,managed_by_android,false,en_US;Ultimate Pickaxe;Deals a LOT of damage.,true,990000,
+com.tomaszpiasecki.mininggame3d.clicker.auto_tap,published,managed_by_android,false,"en_US;Auto Tap;Automatically uses pickaxe in game, 8 times a second. (does NOT sell items)",true,990000,
+com.tomaszpiasecki.mininggame3d.clicker.luck_boost,published,managed_by_android,false,en_US;Luck Boost x3;Boosts rare ore chances by 3.,true,990000,
+com.tomaszpiasecki.mininggame3d.clicker.cash_boost,published,managed_by_android,false,en_US;Cash Boost x3;Make 3 times more cash.,true,990000,
+com.tomaszpiasecki.mininggame3d.clicker.no_ads,published,managed_by_android,false,en_US;No Ads;Disable ads + No need to watch ads to use temporary boosts.,true,990000,
