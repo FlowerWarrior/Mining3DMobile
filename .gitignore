@@ -74,5 +74,5 @@ crashlytics-build.properties
 /userkeystore/
 /Build/
 
-GooglePlayProductCatalog.csv
+GooglePlayProductCatalogExport.csv
 /Screenshots/
