@@ -21,7 +21,7 @@ public class AudioMgr : MonoBehaviour
     void Awake()
     {
         instance = this;
-        if (PlayerPrefs.GetInt("Music", 1) == 0)
+        if (PlayerPrefs.GetInt("Music", 0) == 0)
         {
             audioMusic.enabled = false;
         }

@@ -12,6 +12,7 @@ public class SettingsButton : MonoBehaviour
     [SerializeField] string SavedVariableName;
     [SerializeField] Sprite _spriteON;
     [SerializeField] Sprite _spriteOFF;
+    [SerializeField] int defaultValue = 1;
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class SettingsButton : MonoBehaviour
 
     public void Clicked()
     {
-        if (PlayerPrefs.GetInt(SavedVariableName, 1) == 0)
+        if (PlayerPrefs.GetInt(SavedVariableName, defaultValue) == 0)
         {
             PlayerPrefs.SetInt(SavedVariableName, 1);
         }
@@ -38,7 +39,7 @@ public class SettingsButton : MonoBehaviour
 
     void UpdateLooks()
     {
-        if (PlayerPrefs.GetInt(SavedVariableName, 1) == 1)
+        if (PlayerPrefs.GetInt(SavedVariableName, defaultValue) == 1)
         {
             // Enabled
             _text.color = new Color32(120, 255, 120, 255);

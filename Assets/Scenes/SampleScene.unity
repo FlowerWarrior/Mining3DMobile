@@ -5272,6 +5272,7 @@ MonoBehaviour:
   SavedVariableName: Sound
   _spriteON: {fileID: 21300000, guid: 3d13acbbe1be37740909da70018ca2df, type: 3}
   _spriteOFF: {fileID: 21300000, guid: 7e5de9838b9ee4640b203dfee851280a, type: 3}
+  defaultValue: 1
 --- !u!1 &253319843
 GameObject:
   m_ObjectHideFlags: 0
@@ -29525,6 +29526,7 @@ MonoBehaviour:
   SavedVariableName: Music
   _spriteON: {fileID: 21300000, guid: 74ce990289d79b94cab5ab55196d02e5, type: 3}
   _spriteOFF: {fileID: 21300000, guid: 5b40f7c125c9a0b4ca0243a7bc4dc439, type: 3}
+  defaultValue: 0
 --- !u!1001 &1388321662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46587,6 +46589,7 @@ MonoBehaviour:
   SavedVariableName: Notifications
   _spriteON: {fileID: 21300000, guid: 7f03a137b1fc3da42a5942a452b1dbd2, type: 3}
   _spriteOFF: {fileID: 21300000, guid: d091b2f2c4baa9342b294c68481f3bf3, type: 3}
+  defaultValue: 1
 --- !u!1 &2037959948
 GameObject:
   m_ObjectHideFlags: 0
